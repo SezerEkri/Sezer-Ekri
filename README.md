@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
 int main(int argc, char *argv[]) {
 	int cesit, yedek, yedek1, yedek2, sirtcantasi, i, i1, adet=0, toplam;
 	float sirtcantasi1, agirlik;
@@ -35,9 +37,9 @@ int main(int argc, char *argv[]) {
 				matris[i1][1]=yedek1;
 				matris[i1][2]=yedek2;
 			}
-		}
-	}
-}		
+		 }
+	   }
+     }		
 	printf("Sirtcantasi Kapasitesini Giriniz:\t"); 
 	scanf("%f", &sirtcantasi1);
 	sirtcantasi=sirtcantasi1*10; /////////////////////////////////////////// AĞIRLIĞI 10 İLE ÇARPMIŞTIK. SIRT ÇANTASINI DA 10 İLE ÇARPIP İNTİGER'A ÇEVİRİYORUZ.
