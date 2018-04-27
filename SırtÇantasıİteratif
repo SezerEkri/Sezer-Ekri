@@ -35,9 +35,9 @@ int main(int argc, char *argv[]) {
 				matris[i1][1]=yedek1;
 				matris[i1][2]=yedek2;
 			}
-		  }
-	    }
-     }		
+		}
+	}
+}		
 	printf("Sirtcantasi Kapasitesini Giriniz:\t"); 
 	scanf("%f", &sirtcantasi1);
 	sirtcantasi=sirtcantasi1*10; /////////////////////////////////////////// AĞIRLIĞI 10 İLE ÇARPMIŞTIK. SIRT ÇANTASINI DA 10 İLE ÇARPIP İNTİGER'A ÇEVİRİYORUZ.
